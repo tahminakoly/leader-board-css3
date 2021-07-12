@@ -10,6 +10,7 @@ main{
     align-items: center;
 }
 .container{
+   border: 20px solid white;
     border-radius: 5px;
     margin-top: 21px;
     background-color: white;
@@ -81,7 +82,15 @@ hr{
     display: grid;
     grid-template-columns: repeat(3,1fr) ;
     grid-column-gap: 24px;
+
 }
+.courses .course{
+    border: 10px solid white;
+    box-shadow: white;
+    width: 224px;
+    border-radius: 15px;
+}
+
 .course .course-banner img{
     width: 224px;
     height: 104px;
